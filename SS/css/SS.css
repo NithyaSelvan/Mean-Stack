@@ -1,0 +1,140 @@
+body { padding-top: 70px; background-color: white;}
+.carousel{
+    background: transparent;
+    margin-top: 20px;
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.glyphicon{
+	color: #09A7DB;
+}
+.navbar{
+	background-color: #502182;
+}
+
+.btn.btn-default.btn-md
+{
+	background-color: #502182;
+
+}
+.navbar li a{
+	color: white !important; 
+
+}
+.navbar-brand{
+	padding: 13px 15px;
+}
+.nav.navbar-nav li a:hover {
+    background-color: #D3C3E3;
+    color: #09020F;
+}
+.glyphicon.glyphicon-chevron-left
+{
+	color: #A87EE0;
+}
+.glyphicon.glyphicon-chevron-right
+{
+	color: #A87EE0;
+}
+.rate{
+
+}
+.glyphicon.glyphicon-star
+{
+	color: white;
+
+}
+.well{background-color: #A87EE0;}
+.btn.btn-default.btn-md
+{
+	background-color: #502182;
+	
+}
+.navbar-nav > li > .dropdown-menu { background-color: #502182; color:white;}
+#myCarousel .item{
+	height:400px;
+}
+#slide1{
+	background: url('../img/s1.jpg') top center no-repeat;
+}
+#slide2{
+	background: url('../img/s2.jpg') top center no-repeat;
+}
+#slide3{
+	background: url('../img/s3.jpg') top center no-repeat;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/*Medium desktop devices*/
+@media (max-width: 480px) {
+
+#myCarousel .item{
+	
+}
+#slide1{
+	background: url('../img/s1m.jpg') top center no-repeat;
+}
+#slide2{
+	background: url('../img/s2m.jpg') top center no-repeat;
+}
+#slide3{
+	background: url('../img/s3m.jpg') top center no-repeat;
+}
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+#myCarousel .item{
+	
+}
+#slide1{
+	background: url('../img/s1small.jpg') top center no-repeat;
+}
+#slide2{
+	background: url('../img/s2small.jpg') top center no-repeat;
+}
+#slide3{
+	background: url('../img/s3small.jpg') top center no-repeat;
+}
+  }
+@media (min-width: 992px) {
+ #myCarousel .item{
+	
+}
+#slide1{
+	background: url('../img/s1large.jpg') top center no-repeat;
+}
+#slide2{
+	background: url('../img/s2large.jpg') top center no-repeat;
+}
+#slide3{
+	background: url('../img/s3large.jpg') top center no-repeat;
+}
+}
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 1200px) {
+#myCarousel .item{
+	
+}
+#slide1{
+	background: url('../img/s1large.jpg') top center no-repeat;
+}
+#slide2{
+	background: url('../img/s2large.jpg') top center no-repeat;
+}
+#slide3{
+	background: url('../img/s3large.jpg') top center no-repeat;
+}
+  }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {  }
+
+
+#margin{
+	margin-top:20px;
+	
+}
